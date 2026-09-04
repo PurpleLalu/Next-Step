@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* NextStep design tokens (business plan, step 1 scaffold) */
+@theme {
+  --color-deep-space: #17142b;
+  --color-header: #250537;
+  --color-accent: #401579;
+  --color-teal: #0095b0;
+  --color-lavender: #9d8dbd;
+  --color-ink: #eae6f5;
+
+  --font-wordmark: "Playfair Display", Georgia, serif;
+  --font-app: "DM Sans", "Inter", system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+}
+
+html,
+body {
+  background-color: var(--color-deep-space);
+  color: var(--color-ink);
+  font-family: var(--font-app);
+}
